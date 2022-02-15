@@ -1,0 +1,847 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    height: 60em;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.head {
+    background-color: aqua;
+    height: 4.5em;
+    width: 100%;
+}
+
+.navbar_cache {
+    background-color: white;
+    height: 4.5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    position: fixed;
+}
+
+#nav_item_rech {
+    height: 2.5em;
+    width: 25%;
+    margin-left: 275px;
+    margin-right: 140px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+#txt_rech {
+    height: 100%;
+    width: 80%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#icon {
+    background-color: #FF385C;
+    height: 2em;
+    width: 10%;
+    float: right;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: black;
+    height: 4.5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.nav_item {
+    height: 2.5em;
+    width: 100%;
+    display: flexbox;
+    position: relative;
+}
+
+#nav_item_1 {
+    height: 2.5em;
+    width: 10%;
+    float: left;
+    align-items: center;
+    display: flex;
+    margin-left: 70px;
+}
+
+#log_i {
+    color: white;
+    font-size: 40px;
+}
+
+#log_a {
+    text-decoration: none;
+    color: white;
+    animation-name: ex;
+    animation-duration: 5s;
+}
+
+#nav_item_2 {
+    height: 2.5em;
+    width: 10%;
+    float: left;
+    margin-left: 275px;
+    -webkit-box-align: center;
+    align-items: center;
+    display: inline-flex;
+    position: relative;
+}
+
+#nav_item_3 {
+    height: 2.5em;
+    width: 9%;
+    float: left;
+    margin-left: 10px;
+    -webkit-box-align: center;
+    align-items: center;
+    display: inline-flex;
+    position: relative;
+}
+
+#nav_item_4 {
+    height: 2.5em;
+    width: 15%;
+    float: left;
+    margin-left: 10px;
+    -webkit-box-align: center;
+    align-items: center;
+    display: inline-flex;
+    position: relative;
+}
+
+#nav_item_5 {
+    height: 2.5em;
+    width: 8%;
+    float: left;
+    margin-left: 90px;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    border-radius: 30px;
+}
+
+#nav_item_6 {
+    height: 2.5em;
+    width: 3%;
+    float: left;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+#nav_item_7 {
+    background-color: white;
+    height: 2.5em;
+    width: 6%;
+    float: right;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    margin-right: 70px;
+}
+
+#icon_menu {
+    height: 2em;
+    width: 30%;
+    margin-left: 15px;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+}
+
+#icon_register {
+    height: 2em;
+    width: 35%;
+    margin-left: 5px;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+}
+
+#logo {
+    height: 100%;
+    width: 30%;
+}
+
+#logo_text {
+    height: 1.3em;
+    width: 65%;
+    margin-top: 5px;
+    font-size: 22px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav_a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#item5_a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#item6_i {
+    color: white;
+    font-size: 20px;
+}
+
+.nav {
+    height: 4.3em;
+    width: 100%;
+}
+
+#div_nav {
+    background-color: white;
+    height: 4.3em;
+    width: 65%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flexbox;
+    position: relative;
+}
+
+#div_nav_1 {
+    height: 4.3em;
+    width: 33%;
+    float: left;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    cursor: pointer;
+    text-align: left;
+    line-height: 0;
+}
+
+#div_nav_2 {
+    height: 4.3em;
+    width: 20%;
+    float: left;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: 5px;
+    cursor: pointer;
+    text-align: left;
+    line-height: 0;
+}
+
+#div_nav_3 {
+    height: 4.3em;
+    width: 20%;
+    float: left;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: 5px;
+    cursor: pointer;
+    text-align: left;
+    line-height: 0;
+}
+
+#div_nav_4 {
+    height: 4.3em;
+    width: 25%;
+    float: right;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#div_nav4_text {
+    height: 4.3em;
+    width: 60%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    float: left;
+    cursor: pointer;
+    line-height: 0;
+}
+
+#div_nav4_icon {
+    background-color: #FF385C;
+    height: 3em;
+    width: 22%;
+    float: right;
+    border-radius: 100%;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#head_center {
+    background-image: url(../img/glamping_colombie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40em;
+    width: 89%;
+    margin-left: 70px;
+    margin-top: 50px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+#head_center_1 {
+    height: 6.2em;
+    width: 45%;
+    margin-top: 400px;
+    text-align: center;
+}
+
+#head_center_2 {
+    background-color: white;
+    height: 3.5em;
+    width: 17%;
+    margin-top: 5px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 3.2;
+    font-size: 20px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue;
+    color: #8b095c
+}
+
+#h1 {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue;
+    font-size: 40px;
+    color: rgb(248, 247, 247);
+}
+
+.contenu1 {
+    height: 35em;
+    width: 100%;
+}
+
+#contenu1_text {
+    width: 50%;
+    height: 4em;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+#contenu1_img {
+    width: 90%;
+    height: 28em;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#div_lome {
+    height: 23em;
+    width: 23.5%;
+    float: left;
+}
+
+#div_kpalime {
+    height: 23em;
+    width: 23.5%;
+    float: left;
+    margin-left: 23px;
+}
+
+#div_aneho {
+    height: 23em;
+    width: 23.5%;
+    float: left;
+    margin-left: 23px;
+}
+
+#div_atakpame {
+    height: 23em;
+    width: 23.5%;
+    float: right;
+    margin-left: 23px;
+}
+
+#img {
+    height: 13em;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#text_lome {
+    background-color: #BC1A6E;
+    height: 10em;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#text_kpalime {
+    background-color: #DE3151;
+    height: 10em;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#text_aneho {
+    background-color: #CC2D4A;
+    height: 10em;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#text_atakpame {
+    background-color: #BC1A6E;
+    height: 10em;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contenu2 {
+    height: 53em;
+    width: 100%;
+}
+
+#contenu2_head {
+    height: 4em;
+    width: 50%;
+    margin-left: 70px;
+}
+
+#contenu2_foot {
+    height: 44em;
+    width: 89.5%;
+    margin-left: 70px;
+    margin-top: 10px;
+    display: flexbox;
+}
+
+#img1 {
+    background-image: url(../img/exp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 49%;
+    height: 100%;
+    float: left;
+    border-radius: 10px;
+}
+
+#img2 {
+    background-image: url(../img/exp-lihn.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 49%;
+    height: 100%;
+    float: right;
+    border-radius: 10px;
+}
+
+#img_text {
+    height: 10em;
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+#img_btn1 {
+    background-color: white;
+    height: 2.5em;
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 10px;
+    line-height: 2.3;
+    font-weight: bold;
+}
+
+#img_btn2 {
+    background-color: white;
+    height: 2.5em;
+    width: 35%;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 10px;
+    line-height: 2.3;
+    font-weight: bold;
+}
+
+#btn_a {
+    text-decoration: none;
+    color: black;
+    font-family: inherit !important;
+    text-align: center;
+    font-size: 20px;
+}
+
+#txt {
+    font-size: 40px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.contenu3 {
+    height: 30em;
+    width: 92%;
+    display: flexbox;
+    margin-left: 70px;
+}
+
+#contenu3_text {
+    height: 18em;
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+}
+
+#contenu3_img {
+    height: 27em;
+    width: 64%;
+    float: right;
+    margin-top: 20px;
+}
+
+#contenu3_img_text {
+    font-size: 40px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+#img_btn {
+    background-color: black;
+    height: 2.5em;
+    width: 45%;
+    margin-top: 20px;
+    border-radius: 10px;
+    line-height: 2.3;
+    font-weight: bold;
+    color: white;
+}
+
+.contenu4 {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35em;
+    width: 100%;
+}
+
+#contenu4_text {
+    height: 25em;
+    width: 35%;
+    margin-left: 70px;
+}
+
+#contenu4_btn {
+    background-color: white;
+    height: 3em;
+    width: 18%;
+    margin-top: 30px;
+    margin-left: 70px;
+    border-radius: 10px;
+    line-height: 2.7;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#txt_transform {
+    color: white;
+    font-size: 4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.contenu5 {
+    height: 25em;
+}
+
+#contenu5_1 {
+    height: 2em;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+#contenu5_2 {
+    height: 2em;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 70px;
+    display: flex;
+}
+
+#contenu5_3 {
+    height: 17em;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 70px;
+    display: flex;
+}
+
+#contenu5_2_1 {
+    height: 100%;
+    width: 12%;
+}
+
+#contenu5_2_2 {
+    height: 100%;
+    width: 15%;
+    margin-left: 10px;
+}
+
+#contenu5_2_3 {
+    height: 100%;
+    width: 12%;
+    margin-left: 10px;
+}
+
+#contenu5_2_4 {
+    height: 100%;
+    width: 28%;
+    margin-left: 10px;
+}
+
+#contenu5_3_1 {
+    height: 15em;
+    width: 25%;
+}
+
+#contenu5_3_2 {
+    height: 15em;
+    width: 25%;
+    margin-left: 30px;
+}
+
+#contenu5_3_3 {
+    height: 15em;
+    width: 25%;
+    margin-left: 30px;
+}
+
+#contenu5_3_4 {
+    height: 15em;
+    width: 25%;
+    margin-left: 30px;
+}
+
+#txt1 {
+    height: 4em;
+    width: 100%;
+}
+
+#txt2 {
+    height: 4em;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#txt3 {
+    height: 4em;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#en_tete {
+    font-size: 1.1em;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue";
+    color: rgb(113, 113, 113);
+}
+
+#a1 {
+    text-decoration: none;
+    color: black;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue";
+    font-size: 1em;
+    opacity: 0.8;
+}
+
+#a2 {
+    text-decoration: none;
+    color: rgb(113, 113, 113);
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue";
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #eeeeee;
+    height: 30em;
+    width: 100%;
+    display: inline-block;
+}
+
+#footer1 {
+    height: 2em;
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 70px;
+    display: flex;
+}
+
+#footer1_1 {
+    height: 2em;
+    width: 23%;
+}
+
+#footer1_2 {
+    height: 2em;
+    width: 23%;
+    margin-left: 32px;
+}
+
+#footer1_3 {
+    height: 2em;
+    width: 23%;
+    margin-left: 32px;
+}
+
+#footer1_4 {
+    height: 2em;
+    width: 23%;
+    margin-left: 32px;
+}
+
+#footer2 {
+    height: 16em;
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 5px;
+    display: flex;
+}
+
+#footer2_1 {
+    height: 100%;
+    width: 25%;
+}
+
+#footer2_2 {
+    height: 100%;
+    width: 25%;
+    margin-left: 30px;
+}
+
+#footer2_3 {
+    height: 100%;
+    width: 25%;
+    margin-left: 30px;
+}
+
+#footer2_4 {
+    height: 100%;
+    width: 25%;
+    margin-left: 30px;
+}
+
+#footer3 {
+    height: 3em;
+    width: 90%;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#footer3_1 {
+    height: 2em;
+    width: 13%;
+}
+
+#footer3_2 {
+    height: 2em;
+    width: 68%;
+    margin-left: 5px;
+}
+
+#footer3_3 {
+    height: 2em;
+    width: 18%;
+    margin-left: 80px;
+    display: flexbox;
+}
+
+#footer3_3_g {
+    height: 2em;
+    width: 65%;
+    float: left;
+}
+
+#footer3_3_d {
+    height: 2em;
+    width: 30%;
+    float: right;
+}
+
+#footer3_4 {
+    height: 2em;
+    width: 10%;
+    margin-left: 30px;
+    display: flex;
+    text-align: center;
+}
+
+#footer3_4_g {
+    height: 2em;
+    width: 25%;
+}
+
+#footer3_4_m {
+    height: 2em;
+    width: 25%;
+    margin-left: 10px;
+}
+
+#footer3_4_d {
+    height: 2em;
+    width: 25%;
+    margin-left: 10px;
+}
